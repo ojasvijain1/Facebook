@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbarContainer {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 6px 0px gray;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarUl {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+}
+
+.firstPartNav img {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.firstPartNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondPartNav {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.thirdPartNav {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.secondPartNav li {
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.secondPartNav li:hover {
+    background-color: #f2f2f2;
+    border-radius: 9px;
+}
+
+.secondPartNav li.active {
+    text-decoration: underline blue;
+}
+
+.NavbarImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.iconCircles {
+    width: 40px;
+    height: 40px;
+    background-color: #e4e6eb;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    margin: 4px;
+}
+
+.iconCircles:hover {
+    background-color: rgb(209, 210, 213);
+}
+
+.bodyContainer {
+    display: flex;
+    background-color: #f0f2f5;
+    height: 99vh;
+}
+
+.firstPartContainer {
+    display: flex;
+    flex-basis: 22%;
+    margin-right: 5px;
+}
+
+.firstPartContainerNavbar {
+    display: flex;
+    width: 100%;
+}
+
+.firstPartContainerNavbarUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 10px;
+    /* margin-top: -155px; */
+    width: 100%;
+}
+
+.firstPartDp {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/* .commentButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.firstPartContainerNavbardivLi {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    transition: all 0.6s ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.firstPartContainerNavbardivLi:hover {
+    background-color: #c9c9c9;
+}
+
+.firstPartContainerNavbardivLi > li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.firstPartContainerNavbardivLi > li > img {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.textAfterIcon {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.anotherIconCircles {
+    width: 60px;
+    height: 40px;
+    background-color: #e4e6eb;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.secondPartContainer {
+    flex-basis: 78%;
+    display: flex;
+    max-height: 97vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.posts {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postImage > img {
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.postInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.likeInfoContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.LikeInfo, .commentButton, .deleteButtonInfo {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.commentsInfo {
+    flex-direction: column;
+}
+
+.commentsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.writeAComment {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.LikeInfo > .numberOfLikes {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.LikeInfo > button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.commentButton > .comment {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.commentButton > button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButtonInfo > .Delete {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.deleteButtonInfo > button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.makePostButton{
+    display: flex;
+    justify-content: center;
+}
+
+.makePostButton button {
+    margin: 15px 0px;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 52px;
+    text-shadow: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px 4px;
+    background-color: e4e6eb;
+}
+
+.searchIcon {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.searchIcon > input {
+    margin: 0px 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 10px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

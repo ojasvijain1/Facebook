@@ -1,0 +1,176 @@
+.Container {
+    opacity: 1;
+    min-width: 472px;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+}
+
+.signUpContainer {
+    background-color: #fff;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px 3px black;
+    text-align: left;
+    width: 437px;
+}
+
+.signUpHeading img {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+}
+
+.signUpInfo > .heading {
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0px 10px;
+}
+
+.signUpInfo > .info {
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0px 10px;
+}
+
+.signUpForm {
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 13px;
+    position: relative;
+    width: 432px;
+
+}
+
+.fullname {
+    display: flex;
+    gap: 10px;
+    width: 399px;
+    margin-bottom: 15px;
+}
+
+.fullname > .fname input {
+    width: 174px;
+    padding: 11px;
+    background: #f5f6f7;
+    border-radius: 5px;
+    border-color: #ccd0d5;
+    border: none;
+}
+
+.fullname > .surname input {
+    width: 174px;
+    padding: 11px;
+    background: #f5f6f7;
+    border-radius: 5px;
+    border-color: #ccd0d5;
+    border: none;
+}
+
+.email input, .password input, .dataSelectors input {
+    width: 383px;
+    border-color: #ccd0d5;
+    border: none;
+    padding: 11px;
+    background: #f5f6f7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.birthdayWrapper > .bdayHeading {
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.genderWrapper > .genderHeading {
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.gSelectors > .selectG {
+    display: flex;
+    flex-wrap: wrap;
+    width: 411px;
+}
+
+.radioGender {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    border-radius: 5px;
+    width: auto;
+}
+
+.firstRadioGender {
+    margin-left: 0px;
+}
+
+.genderLabel {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+}
+
+.radioInput {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.signUpButton {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpButton button {
+    margin: 15px 0px;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 52px;
+    text-shadow: none;
+}

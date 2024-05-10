@@ -1,0 +1,159 @@
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 60vh;
+    background-color:  #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+
+.imageContainer img {
+    height: 106px;
+    margin: -28px;
+}
+
+.entryContainer {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.emailEntry, .passwordEntry {
+    padding: 3px 14px;
+}
+
+.opaque {
+    opacity: 0.5;
+}
+
+.emailEntry input, .passwordEntry input {
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    font-size: 17px;
+    padding: 24px 16px;
+    border-radius: 6px;
+    width: 366px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+
+}
+
+.loginbutton {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.loginbutton button {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 369px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginbutton button:hover {
+    background-color: #1877f2;
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.forgotPassword a { 
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.forgotPassword a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.createNew {
+    display: flex;
+    justify-content: center;
+    margin: 26px;
+}
+
+.createNew button {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.createNew button:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.aboutFacebook {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    display: inline-block;
+}
+
+.aboutFacebook h3 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.emailEntry input:focus, .passwordEntry input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+
+.emailEntry:focus, .passwordEntry:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
